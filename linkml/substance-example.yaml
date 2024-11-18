@@ -1,0 +1,15 @@
+substance:
+  id: "http://example.org/pgo/substance"
+  label: "Substance"
+  synonyms:
+    - "Chemical"
+    - "Material"
+  definitions:
+    - text: "A material or chemical used in the development of pharmaceuticals"
+      ontology: "MeSH"
+      uri: "https://meshb.nlm.nih.gov/record/ui?name=Substance"
+      version: "2024"
+    - text: "Any chemical element, chemical compound, or mixture of compounds used in drug development"
+      ontology: "ChEBI"
+      uri: "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:23367"
+      version: "1.0"

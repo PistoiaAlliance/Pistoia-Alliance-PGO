@@ -1,0 +1,42 @@
+name: enums
+id: https://w3id.org/linkml/enums
+
+enums:
+
+  UnitEnum:
+    reachable_from:
+      source_ontology: qudt:unit
+      source_nodes:
+        - qudt:Unit
+      include_self: true
+      relationship_types:
+        - rdfs:subClassOf
+
+  DiseaseEnum:
+    reachable_from:
+      source_ontology: obo:mondo
+      source_nodes:
+        - MONDO:0000001 # disease
+      include_self: true
+      relationship_types:
+        - rdfs:subClassOf
+
+  PhenotypeEnum:
+    reachable_from:
+      source_ontology: obo:hpo
+      source_nodes:
+        - HPO:0000001 # phenotype
+      include_self: true
+      relationship_types:
+        - rdfs:subClassOf
+
+  CellTypeEnum:
+    reachable_from:
+      source_ontology: obo:cl
+      source_nodes:
+        - CL:0000540 ## neuron
+      include_self: false
+      relationship_types:
+        - rdfs:subClassOf
+
+  StudyTypeEnum:

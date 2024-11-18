@@ -1,0 +1,246 @@
+id: https://w3id.org/linkml/PGO/core-entities
+name: core-entities
+prefixes:
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  bioschema: http://bioschemas.org/
+  wikidata: https://www.wikidata.org/wiki/
+  namespace: http://example.com
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+default_range: string
+
+classes:
+  ClinicalStudy:
+    description: ""
+    class_uri: schema:MedicalTrial
+    slots:
+      - study_regulatory_id
+      - study_local_id
+      - study_type
+  Disease:
+    description: ""
+    class_uri: schema:MedicalCondition
+    slots:
+      - disease_agent
+  Indication:
+    description: ""
+    class_uri: schema:Condition #[?]
+    slots:
+      - diseases
+  Compound:
+    description: ""
+    class_uri: schema:ChemicalSubstance
+    slots:
+      - inchi_code
+  Drug:
+    description: ""
+    class_uri: schema:Drug
+    slots:
+      - regulatory_code
+  Assay:
+    description: ""
+    class_uri: schema:MedicalTest # [ bioschema:LabProcess, schema:MedicalTest ] # not supported by python rdflib
+    slots:
+      - technology
+  Person:
+    description: ""
+    class_uri: schema:Person
+    slots:
+      - affiliation
+  Specimen:
+    description: ""
+    class_uri: bioschema:Sample
+    slots:
+      - origin
+  CellType:
+    description: ""
+    class_uri: schema:AnatomicalStructure
+    slots:
+      - cell_descriptor
+  CellLine:
+    description: ""
+    class_uri: schema:Product
+    slots:
+      - origin
+  Biomarker:
+    description: ""
+    class_uri: namespace:000001 #test:test # [?,?] # not supported by python rdflib
+    slots:
+      - biomarker_type
+  Target:
+    description: ""
+    class_uri: schema:MolecularEntity # not supported by python rdflib
+    slots:
+      - scope
+  Protein:
+    description: ""
+    class_uri: schema:Protein
+    slots:
+      - ptm
+  Gene:
+    description: "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function."
+ #   definition_source: "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C16612"
+    class_uri: schema:Gene #[schema:Gene, wikidata:Q16707235] # not supported by python rdflib # schema:Gene
+    slots:
+      - study_type
+  Device:
+    description: ""
+    class_uri: schema:MedicalDevice
+    slots:
+      - manufacturer
+  Product:
+    description: ""
+    class_uri: schema:Product
+    slots:
+      - manufacturer
+  Substance:
+    description: ""
+    class_uri: schema:Substance
+    slots:
+      - manufacturer
+  Site:
+    description: ""
+    class_uri: schema:Place
+    slots:
+      - coordinates
+  Program:
+    description: ""
+    class_uri: schema:FundingScheme
+    slots:
+      - domain
+  Project:
+    description: ""
+    class_uri: schema:Project
+    slots:
+      - funded_by
+  Vocabulary:
+    description: ""
+    class_uri:  schema:DefinedTermSet #[schema:DefinedTermSet, schema:CategoryCodeSet] # not supported by python rdflib
+    slots:
+      - license
+
+
+slots:
+  study_local_id:
+    slot_uri: schema:identifier
+    range: string
+    pattern: "[NN|HLR|AZ|MR]\\d+"
+    description:
+  study_regulatory_id:
+    slot_uri: schema:identifier
+    range: string
+    pattern: "NCT\\D+"
+    description:
+  study_type:
+    description:
+    slot_uri:
+    range: StudyTypeEnum
+  manufacturer:
+    description:
+    slot_uri:
+    range:
+    required: false
+  license:
+    slot_uri:
+    range:
+    required: false
+  funded_by:
+    slot_uri:
+    range:
+    required: false
+  domain:
+    slot_uri:
+    range:
+    required: false
+  biomarker_type:
+    slot_uri:
+    range:
+    required: false
+  ptm:
+    slot_uri:
+    range:
+    required: false
+  scope:
+    slot_uri:
+    range:
+    required: false
+  origin:
+    slot_uri:
+    range:
+    required: false
+  cell_descriptor:
+    range: CellTypeEnum
+    required: true
+    description:
+    slot_uri:
+  morphology:
+    slot_uri:
+    range:
+    required: false
+  affiliation:
+    slot_uri:
+    range:
+    required: false
+  technology:
+    description:
+    slot_uri:
+    range: string
+    required: false
+  coordinates:
+    slot_uri:
+    range:
+    required: false
+  inchi_code:
+    slot_uri:
+    range:
+    required: false
+  regulatory_code:
+    slot_uri:
+    range:
+    required: false
+  diseases:
+    slot_uri:
+    range: Any
+    any_of:
+      - range: DiseaseEnum
+      - range: PhenotypeEnum
+    required: false
+  disease_agent:
+    slot_uri:
+    range:
+    required: false
+
+enums:
+  StudyTypeEnum:
+
+  DiseaseEnum:
+    reachable_from:
+      source_ontology: obo:mondo
+      source_nodes:
+        - MONDO:0000001 # disease
+      include_self: true
+      relationship_types:
+        - rdfs:subClassOf
+  PhenotypeEnum:
+    reachable_from:
+      source_ontology: obo:hpo
+      source_nodes:
+        - HPO:0000001 # phenotype
+      include_self: true
+      relationship_types:
+        - rdfs:subClassOf
+
+
+  CellTypeEnum:
+    reachable_from:
+      source_ontology: obo:cl
+      source_nodes:
+        - CL:0000540 ## neuron
+      include_self: false
+      relationship_types:
+        - rdfs:subClassOf

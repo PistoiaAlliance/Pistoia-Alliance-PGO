@@ -1,0 +1,105 @@
+id: https://w3id.org/linkml/PGO/cell
+name: cell
+prefixes:
+  linkml: https://w3id.org/linkml/
+  namespace: http://example.com
+  schema: http://schema.org/
+  bioschema: http://bioschemas.org/
+  wikidata: https://www.wikidata.org/wiki/
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  GO: http://purl.obolibrary.org/obo/GO_
+  CL: http://purl.obolibrary.org/obo/CL_
+  fhir: http://hl7.org/fhir/
+  qudt: http://qudt.org/schema/qudt/
+  ncit: https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+
+default_range: string
+
+classes:
+  NamedThing:
+    name: NamedThing
+    description: >-
+      A generic grouping for any identifiable entity
+    close_mappings:
+      - schema:Thing
+    exact_mappings:
+      - wikidata:Q35120
+      - BFO:0000001
+    slots:
+      - definitions
+
+
+  Definition:
+    name: Definition
+    class_uri: BFO:textualentity
+    description: "A specific definition of a concept with an ontology mapping"
+    slots:
+      - text
+      - ontology
+      - uri
+      - version
+
+  Cell:
+    is_a: NamedThing
+    class_uri: wikidata:Q7868
+    name: Cell
+    description: >-
+      "TODO: some definition should go here"
+    definitions:
+      - text: "definition-1"
+        ontology: "blah"
+        version: "1"
+      - text: "definition-2"
+        ontology: "boo"
+        version: "1"
+#    aliases:
+#      - "cell"
+#      - "cell entity"
+#    close_mappings:
+#      - schema:AnatomicalStructure
+#      - fhir:BodyStructure
+#    exact_mappings:
+#      - GO:0005623
+#      - CL:0000000
+#      - wikidata:Q7868
+#      - ncit:C12508
+#      - biolink:https://w3id.org/biolink/biolink-model
+#    id_prefixes: # biolink
+#      - CL
+#      - PO
+#      - UMLS
+#      - NCIT
+#      - MESH
+#      - UBERON
+#      - SNOMEDCT
+#      - MESH
+
+
+
+
+slots:
+  definitions:
+    description: "a textual entity to describe a thing"
+    range: Definition
+    required: false
+    multivalued: true
+  text:
+    description: "The definition of the concept"
+    range: string
+  ontology:
+    description: "The ontology or source from which the definition comes"
+    range: string
+  uri:
+    description: "A URI or identifier for the ontology or term definition"
+    range: uri
+    required: false
+  version:
+    description: "Version of the ontology where the definition comes from"
+    range: string
+    required: false

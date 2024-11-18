@@ -1,0 +1,113 @@
+id: https://w3id.org/linkml/pgo/resource
+name: resource
+prefixes:
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  resource:  https://w3id.org/linkml/examples/resource
+  EDAM: https://edamontology.org
+
+imports:
+  - linkml:types
+#  - enums
+default_range: string
+default_prefix: resource
+
+classes:
+  Resource:
+    class_uri: schema:CreativeWork
+    description: >-
+      a minimal set of descriptors to quality a resource
+    slots:
+      - resource_name
+      - resource_type
+      - resource_uri
+      - abbreviation
+      - namespace
+      - license_uri
+      - subscription_fee
+      - issue_tracker
+      - latest_version_uri
+      - version_archive
+      - api_endpoint
+      - api_documentation
+  Container:
+    description: "A container for a resource"
+    tree_root: true
+    attributes:
+      resources:
+        description: a collection of resource objects
+        multivalued: true
+        inlined_as_list: true
+        range: Resource
+
+slots:
+ resource_name:
+    slot_uri: schema:name
+    required: true
+    description: the name of the resource
+ resource_type:
+    slot_uri: schema:name
+    required: true
+    range: ResourceTypeEnum
+    description: the name of the resource
+ resource_uri:
+    slot_uri: schema:uri
+    required: true
+    description: the uri of the resource
+ abbreviation:
+    slot_uri:
+    required: true
+    description: the abbreviation of the resource
+ namespace:
+    slot_uri: schema:domain
+    required: true
+    description: the namespace of the resource
+ license_uri:
+    slot_uri: schema:termsOfService
+    required: true
+    description: the name of the resource
+ subscription_fee:
+    slot_uri: schema:price
+    required: false
+    description: the fees for use of the resource
+ issue_tracker:
+    slot_uri: schema:url
+    required: true
+    description: the issue tracker of the resource for logging requests
+ latest_version_uri:
+    slot_uri: schema:url
+    required: false
+    description: the uri of the resource latest version
+ version_archive:
+    slot_uri: schema:version
+    required: false
+    description: the address of the version
+ api_endpoint:
+    slot_uri: schema:availableChannel
+    required: true
+    description: the address of the api endpoint
+ api_documentation:
+    slot_uri: schema:documentation
+    required: true
+    description: the address of api endpoint documentation
+
+
+enums:
+  ResourceTypeEnum:
+    description: a list of controlled terms denoting the type of a resource
+    permissible_values:
+      ontology:
+        description: a formal domain of knowledge represented using semweb technology
+        meaning: EDAM:11234
+        aliases:
+          - semantic artefact
+          - knowledge model
+      taxonomy:
+        description: a knowledge organization representation with a tree data structure representation
+        meaning: EDAM:1122
+      controlled_vocabulary:
+        description: a list of terms the values of which are organized according to principles
+        meaning: EDAM:53465
+      reference_db:
+        description: a database acting as a reference resources for domain entities in that area of knowledge
+        meaning: EDAM:1241451

@@ -1,0 +1,2 @@
+linkml ~= 1.8.3
+notebook ~= 7.0.7

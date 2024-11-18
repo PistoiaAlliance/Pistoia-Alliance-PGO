@@ -1,0 +1,44 @@
+id: "http://example.org/pgo"
+name: "Pharma General Ontology"
+description: "A standardized set of terms for pharmaceutical R&D with support for multiple ontology mappings"
+prefixes:
+  pgo: "http://example.org/pgo/"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+default_prefix: pgo
+
+classes:
+  Concept:
+    description: "A core concept in pharmaceutical R&D with multiple ontology mappings"
+    attributes:
+      id:
+        description: "The unique identifier (URI) of the concept"
+        range: uri
+      label:
+        description: "The preferred label for the concept"
+        range: string
+      synonyms:
+        description: "Alternative labels for the concept"
+        range: string
+        multivalued: true
+      definitions:
+        description: "A set of definitions for the concept from different ontologies"
+        range: Definition
+        multivalued: true
+
+  Definition:
+    description: "A specific definition of a concept with an ontology mapping"
+    attributes:
+      text:
+        description: "The definition of the concept"
+        range: string
+      ontology:
+        description: "The ontology or source from which the definition comes"
+        range: string
+      uri:
+        description: "A URI or identifier for the ontology or term definition"
+        range: uri
+        required: false
+      version:
+        description: "Version of the ontology where the definition comes from"
+        range: string
+        required: false

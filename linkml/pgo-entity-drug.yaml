@@ -1,0 +1,74 @@
+id: https://w3id.org/linkml/PGO/drug
+name: drug
+prefixes:
+  linkml: https://w3id.org/linkml/
+  namespace: http://example.com
+  schema: http://schema.org/
+  bioschema: http://bioschemas.org/
+  wikidata: https://www.wikidata.org/wiki/
+  fhir: http://hl7.org/fhir/
+  biolink: https://w3id.org/biolink/vocab/
+  qudt: http://qudt.org/schema/qudt/
+  ncit: https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+#  - pgo-entity-named-thing
+#  - pgo-enums
+
+default_range: string
+
+classes:
+  Drug:
+    is_a: NamedThing
+    class_uri: wikidata:Q12140
+    name: Drug
+    description: >-
+      some string to described the entity
+    aliases:
+      - "Chemical"
+#    definitions:
+#      - text: "A material or chemical used in the development of pharmaceuticals"
+#        ontology: "MeSH"
+#        uri: "https://meshb.nlm.nih.gov/record/ui?name=Substance"
+#        version: "2024"
+#      - text: "A product used in healthcare."
+    close_mappings:
+      - schema:Drug
+    exact_mappings:
+      - biolink:Drug
+      - fhir:Medication
+      - chebi:23888
+      - ncit:C459
+      - wikidata:Q12140
+    id_prefixes:
+      - ncats.drug
+      - RXCUI
+      - NDC
+      - UMLS
+      - CHEBI
+      - UNII
+      - PUBCHEM.COMPOUND
+      - CHEMBL.COMPOUND
+      - DRUGBANK
+      - MESH
+      - CAS
+      - DrugCentral
+      - GTOPDB
+      - HMDB
+      - KEGG.COMPOUND
+      - PHARMGKB.DRUG
+      - ChemBank
+      - PUBCHEM.SUBSTANCE
+      - SIDER.DRUG
+      - INCHI
+      - INCHIKEY
+      - BIGG.METABOLITE
+      - foodb.compound
+      - KEGG.GLYCAN
+      - KEGG.ENVIRON
+      - KEGG.ENVIRON
+      - KEGG

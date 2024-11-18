@@ -1,0 +1,149 @@
+id: "http://example.org/pgo"
+name: "Pharma General Ontology"
+description: "A standardized set of terms for pharmaceutical R&D with support for multiple ontology mappings"
+prefixes:
+  pgo: "http://example.org/pgo/"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+default_prefix: pgo
+
+classes:
+  Concept:
+    description: "A core concept in pharmaceutical R&D with multiple ontology mappings"
+    attributes:
+      id:
+        description: "The unique identifier (URI) of the concept"
+        range: uri
+      label:
+        description: "The preferred label for the concept"
+        range: string
+      synonyms:
+        description: "Alternative labels for the concept"
+        range: string
+        multivalued: true
+      definitions:
+        description: "A set of definitions for the concept from different ontologies"
+        range: Definition
+        multivalued: true
+
+  Definition:
+    description: "A specific definition of a concept with an ontology mapping"
+    attributes:
+      text:
+        description: "The definition of the concept"
+        range: string
+      ontology:
+        description: "The ontology or source from which the definition comes"
+        range: string
+      uri:
+        description: "A URI or identifier for the ontology or term definition"
+        range: uri
+        required: false
+      version:
+        description: "Version of the ontology where the definition comes from"
+        range: string
+        required: false
+
+# Define each core concept as a subclass of Concept with unique attributes
+substance:
+  is_a: Concept
+  description: "A substance, which can be a chemical, biological, or any material used in pharmaceuticals"
+
+clinical_study:
+  is_a: Concept
+  description: "A clinical study involving the testing of a substance or treatment on subjects"
+
+site:
+  is_a: Concept
+  description: "A physical or organizational location where a clinical study is conducted"
+
+subject_person:
+  is_a: Concept
+  description: "A person or subject involved in a clinical study or research"
+
+biomarker:
+  is_a: Concept
+  description: "A biological marker used to measure or indicate a biological state or condition"
+
+biospecimen:
+  is_a: Concept
+  description: "A sample of biological material, such as tissue, blood, or cells, used for research or clinical purposes"
+
+compound:
+  is_a: Concept
+  description: "A chemical or biological compound used in pharmaceutical development"
+
+assay_bioassay:
+  is_a: Concept
+  description: "A test or procedure for measuring the activity, concentration, or presence of a compound"
+
+assay_method_technology:
+  is_a: Concept
+  description: "The method or technology used to perform an assay or lab test"
+
+protein:
+  is_a: Concept
+  description: "A biological molecule composed of amino acids, essential to cellular functions"
+
+target:
+  is_a: Concept
+  description: "A molecule or structure targeted by a drug or compound, typically a protein"
+
+molecular_target:
+  is_a: Concept
+  description: "A specific molecular structure, often a protein, targeted by a drug or therapeutic"
+
+gene:
+  is_a: Concept
+  description: "A unit of heredity that encodes for a protein or RNA molecule"
+
+program:
+  is_a: Concept
+  description: "An organized set of activities or research efforts focused on a specific pharmaceutical goal"
+
+clinical_endpoint:
+  is_a: Concept
+  description: "An outcome or event measured in a clinical study to determine its effectiveness"
+
+disease:
+  is_a: Concept
+  description: "A condition that impairs normal functioning, typically characterized by specific symptoms"
+
+cell_type:
+  is_a: Concept
+  description: "A distinct kind of cell, classified based on its structure and function"
+
+cell_line:
+  is_a: Concept
+  description: "A population of cells grown in culture that is derived from a single cell type"
+
+medicinal_product:
+  is_a: Concept
+  description: "A substance or combination of substances used for treatment, diagnosis, or prevention of diseases"
+
+pharmaceutical_product:
+  is_a: Concept
+  description: "A product containing one or more active pharmaceutical ingredients (API) used in treatments"
+
+drug:
+  is_a: Concept
+  description: "A substance used for treating, curing, or preventing diseases, typically approved by regulatory agencies"
+
+project:
+  is_a: Concept
+  description: "An organized set of tasks aimed at achieving specific research or development goals"
+
+unit_of_measurement:
+  is_a: Concept
+  description: "A standard quantity used to express physical quantities, such as volume, mass, or concentration"
+
+assay_device_instrument:
+  is_a: Concept
+  description: "A device or instrument used to perform laboratory tests or assays"
+
+vocabulary:
+  is_a: Concept
+  description: "A defined set of terms and definitions used within a specific domain or field"
+
+species:
+  is_a: Concept
+  description: "A group of living organisms capable of interbreeding and producing fertile offspring"

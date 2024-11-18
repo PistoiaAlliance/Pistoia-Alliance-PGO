@@ -1,0 +1,18 @@
+id: https://w3id.org/linkml/PGO/core-entities
+name: core-entities
+prefixes:
+  linkml: https://w3id.org/linkml/
+  namespace: http://example.com
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+  - ./pgo-enums
+  - ./pgo-entity-named-thing
+  - ./pgo-entity-substance
+  - ./pgo-entity-cell
+  - ./pgo-entity-drug
+
+default_range: string

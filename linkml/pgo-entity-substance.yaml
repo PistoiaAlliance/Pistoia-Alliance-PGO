@@ -1,0 +1,99 @@
+id: https://w3id.org/linkml/PGO/substance
+name: substance
+prefixes:
+  linkml: https://w3id.org/linkml/
+  namespace: http://example.com
+  schema: http://schema.org/
+  bioschema: http://bioschemas.org/
+  wikidata: https://www.wikidata.org/wiki/
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  fhir: http://hl7.org/fhir/
+  qudt: http://qudt.org/schema/qudt/
+  ncit: https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+#  - pgo-entity-named-thing
+#  - pgo-enums
+
+default_range: string
+
+classes:
+  Definition:
+    is_a:   NamedThing
+    description: "A specific definition of a concept with an ontology mapping"
+    attributes:
+      text:
+        description: "The definition of the concept"
+        range: string
+      ontology:
+        description: "The ontology or source from which the definition comes"
+        range: string
+      uri:
+        description: "A URI or identifier for the ontology or term definition"
+        range: uri
+        required: false
+      version:
+        description: "Version of the ontology where the definition comes from"
+        range: string
+        required: false
+
+  Substance:
+    is_a:   NamedThing
+    class_uri: wikidata:Q214609
+    name: Substance
+    description: >-
+      TODO: some string to describe a material entity
+    aliases:
+      - "Chemical"
+      - "Material"
+#    definitions:
+#      - text: "A material or chemical used in the development of pharmaceuticals"
+#        ontology: "MeSH"
+#        uri: "https://meshb.nlm.nih.gov/record/ui?name=Substance"
+#        version: "2024"
+#      - text: "Any chemical element, chemical compound, or mixture of compounds used in drug development"
+#        ontology: "ChEBI"
+#        uri: "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:23367"
+#        version: "1.0"
+    close_mappings:
+      - schema:Substance
+    exact_mappings:
+      - ncit:C45306
+      - fhir:Substance
+    id_prefixes: # biolink
+      - CHEBI
+      - UNII
+      - PUBCHEM.COMPOUND
+      - CHEMBL.COMPOUND
+      - DRUGBANK
+      - MESH
+      - CAS
+      - DrugCentral
+      - GTOPDB
+      - HMDB
+      - KEGG.COMPOUND
+      - PHARMGKB.DRUG
+      - ChemBank
+      - PUBCHEM.SUBSTANCE
+      - SIDER.DRUG
+      - INCHI
+      - INCHIKEY
+      - BIGG.METABOLITE
+      - foodb.compound
+      - KEGG.GLYCAN
+      - KEGG.DRUG
+      - KEGG.ENVIRON
+      - KEGG
+      - UMLS
+
+
+slots:
+  definitions:
+    description: "a textual entity providing a clear description of an entity"
+    range: Definition
+    required: false
+    multivalued: true

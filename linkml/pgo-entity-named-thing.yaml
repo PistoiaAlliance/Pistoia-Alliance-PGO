@@ -1,0 +1,60 @@
+id: https://w3id.org/linkml/PGO/named-thing
+name: named-thing
+prefixes:
+  linkml: https://w3id.org/linkml/
+  namespace: http://example.com
+  schema: http://schema.org/
+  bioschema: http://bioschemas.org/
+  wikidata: https://www.wikidata.org/wiki/
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  qudt: http://qudt.org/schema/qudt/
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+
+default_range: string
+
+classes:
+  Definition:
+    description: "A specific definition of a concept with an ontology mapping"
+    attributes:
+      text:
+        description: "The definition of the concept"
+        range: string
+      ontology:
+        description: "The ontology or source from which the definition comes"
+        range: string
+      uri:
+        description: "A URI or identifier for the ontology or term definition"
+        range: uri
+        required: false
+      version:
+        description: "Version of the ontology where the definition comes from"
+        range: string
+        required: false
+
+  NamedThing:
+    name: NamedThing
+    description: >-
+      A generic grouping for any identifiable entity
+    close_mappings:
+      - schema:Thing
+    exact_mappings:
+      - wikidata:Q35120
+      - BFO:0000001
+    slots:
+      - name
+      - description
+      - definitions
+
+
+slots:
+  definitions:
+    description: >-
+      "a textual definition to name a string along with an authoritative source
+    range: Definition
+    multivalued: true
+    required: false

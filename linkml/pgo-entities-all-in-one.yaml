@@ -1,0 +1,246 @@
+id: https://w3id.org/linkml/PGO/core-entities
+name: core-entities
+prefixes:
+  linkml: https://w3id.org/linkml/
+  namespace: http://example.com
+  schema: http://schema.org/
+  bioschema: http://bioschemas.org/
+  wikidata: https://www.wikidata.org/wiki/
+  bfo: http://purl.obolibrary.org/obo/BFO_
+  qudt: https://qudt.org/vocab/unit/
+
+version: 0.0.0
+license: https://creativecommons.org/publicdomain/zero/1.0/
+
+imports:
+  - linkml:types
+  - pgo-entity-substance
+  - pgo-enums
+default_range: string
+
+classes:
+  NamedThing:
+    description: >-
+      A generic grouping for any identifiable entity
+    slots:
+      - id
+      - name
+      - description
+    close_mappings:
+      - schema:Thing
+    exact_mappings:
+      - wikidata:Q35120
+      - bfo:0000001
+
+  ClinicalStudy:
+    description: ""
+    class_uri: schema:MedicalTrial
+    slots:
+      - study_regulatory_id
+      - study_local_id
+      - study_type
+  Disease:
+    description: ""
+    class_uri: schema:MedicalCondition
+    slots:
+      - disease_agent
+  Indication:
+    description: ""
+    class_uri: schema:Condition #[?]
+    slots:
+      - diseases
+  Compound:
+    description: ""
+    class_uri: schema:ChemicalSubstance
+    slots:
+      - inchi_code
+  Drug:
+    description: ""
+    class_uri: schema:Drug
+    slots:
+      - regulatory_code
+  Assay:
+    description: ""
+    class_uri: schema:MedicalTest # [ bioschema:LabProcess, schema:MedicalTest ] # not supported by python rdflib
+    slots:
+      - technology
+  Person:
+    description: ""
+    class_uri: schema:Person
+    slots:
+      - affiliation
+  Specimen:
+    description: ""
+    class_uri: bioschema:Sample
+    slots:
+      - origin
+  CellType:
+    description: ""
+    class_uri: schema:AnatomicalStructure
+    slots:
+      - cell_descriptor
+  CellLine:
+    description: ""
+    class_uri: schema:Product
+    slots:
+      - origin
+  Biomarker:
+    description: ""
+    class_uri: namespace:000001 #test:test # [?,?] # not supported by python rdflib
+    slots:
+      - biomarker_type
+  Target:
+    description: ""
+    class_uri: schema:MolecularEntity # not supported by python rdflib
+    slots:
+      - scope
+  Protein:
+    description: ""
+    class_uri: schema:Protein
+    slots:
+      - ptm
+  Gene:
+    description: "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function."
+ #   definition_source: "https://www.ebi.ac.uk/ols4/ontologies/ncit/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FNCIT_C16612"
+    class_uri: schema:Gene #[schema:Gene, wikidata:Q16707235] # not supported by python rdflib # schema:Gene
+    slots:
+      - study_type
+  Device:
+    description: ""
+    class_uri: schema:MedicalDevice
+    slots:
+      - manufacturer
+  Product:
+    description: ""
+    class_uri: schema:Product
+    slots:
+      - manufacturer
+  Substance:
+    description: ""
+    class_uri: schema:Substance
+    slots:
+      - manufacturer
+  Site:
+    description: ""
+    class_uri: schema:Place
+    slots:
+      - coordinates
+  Program:
+    description: ""
+    class_uri: schema:FundingScheme
+    slots:
+      - domain
+  Project:
+    description: ""
+    class_uri: schema:Project
+    slots:
+      - funded_by
+  Vocabulary:
+    description: ""
+    class_uri:  schema:DefinedTermSet #[schema:DefinedTermSet, schema:CategoryCodeSet] # not supported by python rdflib
+    slots:
+      - license
+  Unit:
+    description: >- 
+      A unit of measure, or unit, is a particular quantity value that has been chosen as a scale 
+      for measuring other quantities the same kind (more generally of equivalent dimension). 
+      For example, the meter is a quantity of length that has been rigorously defined and standardized
+      by the BIPM (International Board of Weights and Measures). Any measurement of the length can be 
+      expressed as a number multiplied by the unit meter. More formally, the value of a physical 
+      quantity Q with respect to a unit (U) is expressed as the scalar multiple of a real number (n) 
+      and U, as Q=nU
+    class_uri: https://qudt.org/schema/qudt/Unit
+    range: UnitEnum
+
+
+
+slots:
+  study_local_id:
+    slot_uri: schema:identifier
+    range: string
+    pattern: "[NN|HLR|AZ|MR]\\d+"
+    description:
+  study_regulatory_id:
+    slot_uri: schema:identifier
+    range: string
+    pattern: "NCT\\D+"
+    description:
+  study_type:
+    description:
+    slot_uri:
+    range: StudyTypeEnum
+  manufacturer:
+    description:
+    slot_uri:
+    range:
+    required: false
+  license:
+    slot_uri:
+    range:
+    required: false
+  funded_by:
+    slot_uri:
+    range:
+    required: false
+  domain:
+    slot_uri:
+    range:
+    required: false
+  biomarker_type:
+    slot_uri:
+    range:
+    required: false
+  ptm:
+    slot_uri:
+    range:
+    required: false
+  scope:
+    slot_uri:
+    range:
+    required: false
+  origin:
+    slot_uri:
+    range:
+    required: false
+  cell_descriptor:
+    range: CellTypeEnum
+    required: true
+    description:
+    slot_uri:
+  morphology:
+    slot_uri:
+    range:
+    required: false
+  affiliation:
+    slot_uri:
+    range:
+    required: false
+  technology:
+    description:
+    slot_uri:
+    range: string
+    required: false
+  coordinates:
+    slot_uri:
+    range:
+    required: false
+  inchi_code:
+    slot_uri:
+    range:
+    required: false
+  regulatory_code:
+    slot_uri:
+    range:
+    required: false
+  diseases:
+    slot_uri:
+    range: Any
+    any_of:
+      - range: DiseaseEnum
+      - range: PhenotypeEnum
+    required: false
+  disease_agent:
+    slot_uri:
+    range:
+    required: false
+

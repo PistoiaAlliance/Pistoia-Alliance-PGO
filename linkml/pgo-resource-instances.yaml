@@ -1,0 +1,25 @@
+resources:
+  - resource_name: "clinical trial dot gov"
+    resource_type: reference_db
+    resource_uri: https://clinicaltrials.gov
+    abbreviation: CT
+    namespace: clinicaltrials
+    license_uri: CC-BY-SA
+    subscription_fee: None
+    issue_tracker: https://clinicaltrials.gov/issue
+    latest_version_uri:
+    version_archive:
+    api_endpoint: https://api.clinicaltrials.gov/
+    api_documentation: https://clinicaltrials.gov/data-api/api
+  - resource_name: uniprot
+    resource_type: reference_db
+    resource_uri: https://uniprot.org
+    abbreviation: uniprot
+    namespace: uniprot
+    license_uri: CC-BY-SA
+    subscription_fee: None
+    issue_tracker: https://www.ebi.ac.uk/proteins/issue
+    latest_version_uri:
+    version_archive:
+    api_endpoint: https://www.ebi.ac.uk/proteins/api/doc/#/proteins
+    api_documentation: https://www.ebi.ac.uk/proteins/api/doc/
