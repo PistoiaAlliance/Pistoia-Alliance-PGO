@@ -16,7 +16,7 @@ Unambiguously identifying those, specifying when applicable, value-sets for key 
 
 ### Technology
 
-PGO is currently evaluating and using the [LinkML](https://linkml.org) for representing and documenting each of the types.
+PGO is currently evaluating and using the [LinkML](https://linkml.org) for representing and documenting each of the types [3].
 
 #### PGO list of core entities
 
