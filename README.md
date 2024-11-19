@@ -63,6 +63,7 @@ PGO is currently evaluating and using the [LinkML](https://linkml.org) for repre
 - Glaxo Smith Kline PLC
 - Merck Group
 - Novo Nordisk
+- Pfizer
 - Pistoia Alliance
 - Hoffman la Roche AG
 
