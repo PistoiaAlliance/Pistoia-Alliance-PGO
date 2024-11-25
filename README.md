@@ -8,11 +8,12 @@ Defining a set of agreed-upon core entities and associated controlled terminolog
 ### Rationale
 
 Information exchange within and across organizations in the pharmaceutical industry is hampered by lacking or ambiguous formal asset description.
-These description would allow validation, facilitate discovery and promote interoperability, all of which having the potential to deliver significant gains for data exploitation and value delivery in the drug development pipeline, ultimately bringing better treatments to patients.
-The purpose of Pistoia Alliance led PGO is to identify and define core entities critical to the business. True to the notion of FAIR principles of data management [1] and their use in the Pharmaceutical Industry [2], the PGO aims to
-reuse existing semantic resources (ontologies and controled terminologies) as well as open source community software supportting the development of semantic resources and data schemas, rather than creating a new resource.
+These descriptions would allow validation, facilitate discovery and promote interoperability, all of which having the potential to deliver significant gains for data exploitation and value delivery in the drug development pipeline, ultimately bringing better treatments to patients.
+The purpose of Pistoia Alliance led PGO project is to identify and define core entities critical to the business. True to the notion of FAIR principles of data management [1] and their use in the Pharmaceutical Industry [2], the PGO aims to
+*reuse* existing semantic resources (ontologies and controled terminologies) as well as open source community software supporting the development of semantic resources and data schemas, rather than creating new ones.
 Therefore, the initial goal of PGO is to provide enough coverage to represent essential entities most frequently used or refered to when exchanging data.
 Unambiguously identifying those, specifying when applicable, value-sets for key attributes by relying on community-agreed controlled terminologies, and documenting them in a machine actionable form will be the primary outputs of the project.
+On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. It is not the remit of PGO to mandate the use of a resource over another, rather enable clarity to declare which ones are used and why.
 
 ### Technology
 
