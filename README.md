@@ -3,17 +3,29 @@
 ## Pistoia Alliance Pharma General Ontology: 
 
 ### Objective
-Defining a set of agreed-upon core entities and associated controlled terminologies to service data exchange of Research & Development (R&D) information among Pharmaceutical Industry stakeholders.
+Defining a set of agreed-upon core entities and recommendations for associating controlled terminologies to service data exchange of Research & Development (R&D) information among Pharmaceutical Industry stakeholders.
 
 ### Rationale
 
-Information exchange within and across organizations in the pharmaceutical industry is hampered by lacking or ambiguous formal asset description.
-These descriptions would allow validation, facilitate discovery and promote interoperability, all of which having the potential to deliver significant gains for data exploitation and value delivery in the drug development pipeline, ultimately bringing better treatments to patients.
-The purpose of Pistoia Alliance led PGO project is to identify and define core entities critical to the business. True to the notion of FAIR principles of data management [1] and their use in the Pharmaceutical Industry [2], the PGO aims to
-*reuse* existing semantic resources (ontologies and controled terminologies) as well as open source community software supporting the development of semantic resources and data schemas, rather than creating new ones.
-Therefore, the initial goal of PGO is to provide enough coverage to represent essential entities most frequently used or refered to when exchanging data.
-Unambiguously identifying those, specifying when applicable, value-sets for key attributes by relying on community-agreed controlled terminologies, and documenting them in a machine actionable form will be the primary outputs of the project.
-On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. It is not the remit of PGO to mandate the use of a resource over another, rather enable clarity to declare which ones are used and why.
+Information exchange within and across organizations in the pharmaceutical industry is hampered by insufficient or ambiguous asset description.
+These descriptions should ideally allow for validation, facilitation of discovery and promotion of interoperability. 
+All of these have the potential to deliver significant gains for data exploitation and value delivery in the drug development pipeline, ultimately bringing better treatments to patients.
+
+*The remit of PGO, rather than mandate the use of a resource over another, is to enable clarity when declaring which semantic resources are used and why*.
+
+True to the FAIR principles of data management [1] and their use in the Pharmaceutical Industry [2], the PGO aims to
+*reuse* existing semantic resources (ontologies and controlled terminologies) as well as open source community software, rather than creating new ones.
+
+The initial goal of PGO is to provide enough coverage to represent essential entities, most frequently used or referred to when exchanging data.
+
+**The key objectives are therefore**:
+- [x] Unambiguously identifying essential entities
+- [x] Specifying, when applicable, value-sets for key attributes by relying on community-agreed controlled terminologies
+- [x] Documenting them in a machine actionable form will be the primary outputs of the project.
+
+On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
+
+
 
 ### Technology
 
