@@ -72,13 +72,14 @@ PGO is currently evaluating the [LinkML](https://linkml.org) for representing an
 
 ### Participating Organizations:
 - Astrazeneca
-- Chiesi Farmateuci
+- Chiesi Farmaceutici
 - Glaxo Smith Kline PLC
-- Merck Group
+- Merck KgaA
 - Novo Nordisk
 - Pfizer
-- Pistoia Alliance
 - Hoffman la Roche AG
+
+- Pistoia Alliance
 
 ### References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
