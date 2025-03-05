@@ -29,7 +29,7 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### Technology
 
-PGO is currently evaluating the [LinkML](https://linkml.org) for representing and documenting each of the types [3].
+PGO is currently evaluating the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
 #### PGO list of core entities
 
