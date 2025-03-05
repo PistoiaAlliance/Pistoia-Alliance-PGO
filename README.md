@@ -3,7 +3,7 @@
 ## Pistoia Alliance Pharma General Ontology (PGO): 
 
 ### Objective
-Defining a set of agreed-upon core entities, the PGO "core concepts",  and recommendations for associating controlled terminologies to service data exchange of Research & Development (R&D) information among Pharmaceutical Industry stakeholders.
+The first objective of PGO is to define a set of agreed-upon core entities, the PGO "core concepts",  and recommendations for associating controlled terminologies to service data exchange of Research & Development (R&D) information among Pharmaceutical Industry stakeholders.
 
 ### Rationale
 
