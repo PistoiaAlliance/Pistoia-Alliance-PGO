@@ -65,8 +65,8 @@ PGO is currently evaluating the [LinkML](https://linkml.io) for representing and
 ### Roadmap
 
 - 2023: initial scoping and identification of core concepts
-- 2024: use case definition, expters consultation and alignment, formalization of core concepts 
-- 2025: implementation and testing using LinkML, application and field testing 
+- 2024: use case definition, experts consultation and alignment, formalization of core concepts 
+- 2025: implementation and testing using LinkML, application and "field testing" 
 
 
 ### Project sponsors :
