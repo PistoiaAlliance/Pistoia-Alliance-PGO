@@ -69,8 +69,7 @@ PGO is currently evaluating the [LinkML](https://linkml.io) for representing and
 - 2025: implementation and testing using LinkML, application and field testing 
 
 
-
-### Participating Organizations:
+### Project sponsors :
 - Astrazeneca
 - Chiesi Farmaceutici
 - Glaxo Smith Kline PLC
@@ -79,7 +78,6 @@ PGO is currently evaluating the [LinkML](https://linkml.io) for representing and
 - Pfizer
 - Hoffman la Roche AG
 
-- Pistoia Alliance
 
 ### References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
