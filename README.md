@@ -35,6 +35,9 @@ https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-pr
 ### List of experts
 https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list
 
+### Summaries of alignments meetings
+https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings
+
 ### Technology
 The  is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
