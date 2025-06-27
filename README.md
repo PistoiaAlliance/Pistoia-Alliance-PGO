@@ -21,13 +21,13 @@ The initial goal of PGO is to provide enough coverage to represent essential ent
 **The key objectives are therefore**:
 - [x] Unambiguously identifying essential entities
 - [x] Specifying, when applicable, value-sets for key attributes by relying on community-agreed controlled terminologies
-- [x] Creating machine actionable documentation.
+- [x] Creating machine actionable documentation
 
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
 
 ### List of core entities
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2025_PGO_V1.0_core_concepts
+https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/2025_PGO_V1.0_core_concepts
 
 ### Process
 https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process
@@ -39,14 +39,14 @@ https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-lis
 https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings
 
 ### Technology
-The  is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
+The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
 
 ### Roadmap
 - 2023: initial scoping and identification of core concepts FAIR implementation project
 Phase 1
 - 2024: process flow, expert identification, core concept candidate definitions
-- 2024: high level use case identificaiton and definition
+- 2024: high level use case identificaiton and definition [4]
 - 2025: experts consultation and alignment, formalization of core concepts R&ED
 - 2025: implementation and testing using LinkML
 - 2025: first public release of the core-concepts
@@ -71,3 +71,4 @@ Phase 2
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
 2. [https://pubmed.ncbi.nlm.nih.gov/35066138/](https://pubmed.ncbi.nlm.nih.gov/35066138/)
 3. [https://pubmed.ncbi.nlm.nih.gov/36125173/](https://pubmed.ncbi.nlm.nih.gov/36125173/)
+4. [PGO deliverable D2.2-Use cases](https://www.pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/)
