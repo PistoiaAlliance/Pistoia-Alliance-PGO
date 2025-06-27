@@ -21,7 +21,7 @@ The initial goal of PGO is to provide enough coverage to represent essential ent
 **The key objectives are therefore**:
 - [x] Unambiguously identifying essential entities
 - [x] Specifying, when applicable, value-sets for key attributes by relying on community-agreed controlled terminologies
-- [x] Creating machine actionable documentation.
+- [x] Creating machine actionable documentation
 
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
