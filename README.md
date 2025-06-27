@@ -27,7 +27,7 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 
 ### List of core entities
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2025_PGO_V1.0_core_concepts
+https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/2025_PGO_V1.0_core_concepts
 
 ### Process
 https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process
