@@ -39,14 +39,14 @@ https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-lis
 https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings
 
 ### Technology
-The  is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
+The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
 
 ### Roadmap
 - 2023: initial scoping and identification of core concepts FAIR implementation project
 Phase 1
 - 2024: process flow, expert identification, core concept candidate definitions
-- 2024: high level use case identificaiton and definition
+- 2024: high level use case identificaiton and definition [4]
 - 2025: experts consultation and alignment, formalization of core concepts R&ED
 - 2025: implementation and testing using LinkML
 - 2025: first public release of the core-concepts
@@ -71,3 +71,4 @@ Phase 2
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
 2. [https://pubmed.ncbi.nlm.nih.gov/35066138/](https://pubmed.ncbi.nlm.nih.gov/35066138/)
 3. [https://pubmed.ncbi.nlm.nih.gov/36125173/](https://pubmed.ncbi.nlm.nih.gov/36125173/)
+4. [PGO deliverable D2.2-Use cases](https://www.pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/)
