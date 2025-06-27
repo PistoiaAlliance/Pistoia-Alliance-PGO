@@ -54,7 +54,7 @@ Phase 2
 - 2026 updated version of core-concept vocabulary
 
 
-### Project sponsors Phase 1:
+### Project sponsors Phase 1
 - Astrazeneca
 - Chiesi Group
 - Glaxo Smith Kline PLC
