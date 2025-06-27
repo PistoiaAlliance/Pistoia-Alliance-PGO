@@ -33,45 +33,25 @@ PGO is currently evaluating the [LinkML](https://linkml.io) for representing and
 
 #### PGO list of core entities
 
-| Concept | Definition | Status | 
-|--|--|--|
-|Assay (method)| | under development|
-|Assay (biological)| | under development|
-|Biomarker|| under development|
-|Biospecimen|| under development|
-|Cell line|| under development|
-|Cell type|| under development|
-|Clinical study|| under development|
-|Compound|| under development|
-|Equipment|| under development|
-|Disease|| under development|
-|Drug|| under development|
-|Device|| under development|
-|Gene|| under development|
-|Indication|| under development|
-|Molecular target|| under development|
-|Product|| under development|
-|Program|| under development|
-|Project|| under development|
-|Protein|| under development|
-|Site|| under development|
-|Gene|| under development|
-|Species|| under development|
-|Subject-Person|| under development|
-|Target|| under development|
-|Unit|| under development|
-|Vocabulary|| under development|
+
 
 ### Roadmap
+- 2023: initial scoping and identification of core concepts FAIR implementation project
+Phase 1
+- 2024: process flow, expert identification, core concept candidate definitions
+- 2024: high level use case identificaiton and definition
+- 2025: experts consultation and alignment, formalization of core concepts R&ED
+- 2025: implementation and testing using LinkML
+- 2025: first public release of the core-concepts
 
-- 2023: initial scoping and identification of core concepts
-- 2024: use case definition, experts consultation and alignment, formalization of core concepts 
-- 2025: implementation and testing using LinkML, application and "field testing" 
+Phase 2
+- 2025 application and "field testing"
+- 2025 complement 
 
 
 ### Project sponsors :
 - Astrazeneca
-- Chiesi Farmaceutici
+- Chiesi Group
 - Glaxo Smith Kline PLC
 - Merck KgaA
 - Novo Nordisk
