@@ -29,11 +29,16 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### Technology
 
-PGO is currently evaluating the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
+PGO is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
-#### PGO list of core entities
+#### List of core entities
+https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2025_PGO_V1.0_core_concepts
 
+#### list of experts
+https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list
 
+#### Process
+https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process
 
 ### Roadmap
 - 2023: initial scoping and identification of core concepts FAIR implementation project
@@ -46,10 +51,11 @@ Phase 1
 
 Phase 2
 - 2025 application and "field testing"
-- 2025 complement 
+- 2025 complement core-concept vocabulary
+- 2026 updated version of core-concept vocabulary
 
 
-### Project sponsors :
+### Project sponsors Phase 1:
 - Astrazeneca
 - Chiesi Group
 - Glaxo Smith Kline PLC
