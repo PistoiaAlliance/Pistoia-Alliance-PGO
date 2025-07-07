@@ -28,14 +28,11 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### [List of core entities](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/blob/development/2025_PGO_V1.0_core_concepts.md)
 
-### Process
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process
+### [Process](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process0
 
-### List of experts
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list
+### [List of experts](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
 
-### Summaries of alignments meetings
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings
+### [Summaries of alignments meetings](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
