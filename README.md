@@ -26,17 +26,13 @@ The initial goal of PGO is to provide enough coverage to represent essential ent
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
 
-### List of core entities
-[https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/2025_PGO_V1.0_core_concepts](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/blob/development/2025_PGO_V1.0_core_concepts.md)
+### [List of core entities](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/blob/development/2025_PGO_V1.0_core_concepts.md)
 
-### Process
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process
+### [Process](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
 
-### List of experts
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list
+### [List of experts](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
 
-### Summaries of alignments meetings
-https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings
+### [Summaries of alignments meetings](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
