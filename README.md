@@ -26,7 +26,7 @@ The initial goal of PGO is to provide enough coverage to represent essential ent
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
 
-### [List of core entities](/blob/development/2025_PGO_V1.0_core_concepts.md)
+### [List of core entities](../blob/development/2025_PGO_V1.0_core_concepts.md)
 
 ### Process
 https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process
