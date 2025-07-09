@@ -1,4 +1,4 @@
-# Pistoia-Alliance-PGO
+# Pistoia-Alliance-PGO - README
 
 ## Pistoia Alliance Pharma General Ontology (PGO)
 
@@ -29,13 +29,13 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ## Project Outputs Phase 1
 
-### [List of core concepts](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/blob/development/2025_PGO_V1.0_core_concepts.md)
+### [List of core concepts](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/blob/development/2025_PGO_V1.0_core_concepts.md)
 
-### [Process](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
+### [Process](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
 
-### [List of experts](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
+### [List of experts](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
 
-### [Summaries of alignments meetings](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
+### [Summaries of alignments meetings](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
 ### [High level use case report- project webpage: see "deliverables and resources"](https://www.pistoiaalliance.org/project/pharma-general-ontology/)
 
