@@ -44,8 +44,8 @@ URI: [w3id:pgo.assay](https://w3id.org/pgo.assay)
 
 <!-- ## Examples -->
 
-| Value | Description |
-| --- | --- |
+| Value |   | Description |
+| --- | --- |--- |
 | [PCR-SSCP assay](http://purl.obolibrary.org/obo/OBI_0302737) | | Polymerase Chain Reaction Single Strand Conformation assay |
 | [apoptosis assay](http://purl.obolibrary.org/obo/MAXO_0035080) | | A test to determine if cells are undergoing programmed cell death. |
 
