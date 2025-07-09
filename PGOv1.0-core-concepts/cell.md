@@ -51,8 +51,8 @@ URI: [CL:0000000](http://purl.obolibrary.org/obo/CL_0000000)
 
 | Value | Description
 | --- | --- |
-| [neuron](http://purl.obolibrary.org/obo/CL_0000540) | | The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system. [CL:0000540] |
-| [hepatocyte](http://purl.obolibrary.org/obo/CL_0000182) | | The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. [CL:0000182] |
+| [neuron](http://purl.obolibrary.org/obo/CL_0000540) | The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system. [CL:0000540] |
+| [hepatocyte](http://purl.obolibrary.org/obo/CL_0000182) | The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. [CL:0000182] |
 
 </details>
 

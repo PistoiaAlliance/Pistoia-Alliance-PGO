@@ -54,8 +54,8 @@ URI: [w3id:pgo.indication](https://w3id.org/pgo.indication)
 
 | Value | Description
 | --- | --- |
-| [abnormal blood glucose concentration](https://hpo.jax.org/browse/term/HP:0011015) | | too much or too little glucose in the blood). |
-| [Hypotension](https://hpo.jax.org/browse/term/HP:0002615) | | A condition in which the blood pressure in the arteries is abnormally low. |
+| [abnormal blood glucose concentration](https://hpo.jax.org/browse/term/HP:0011015) | too much or too little glucose in the blood). |
+| [Hypotension](https://hpo.jax.org/browse/term/HP:0002615) | A condition in which the blood pressure in the arteries is abnormally low. |
 
 </details>
 

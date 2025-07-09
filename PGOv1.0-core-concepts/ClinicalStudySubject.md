@@ -47,7 +47,7 @@ URI: [w3id:pgo.clinical_study_subject](https://w3id.org/pgo.clinical_study_subje
 
 | Value | Description
 | --- | --- |
-|  [SAMN16822870](https://www.ebi.ac.uk/biosamples/samples/SAMN16822870) | | Non-tumor DNA sample from blood of a human female participant in the dbGaP study A Phase I/II Trial of T Cell Receptor Gene Therapy Targeting HPV-16 E7 for HPV-Associated Cancers   |
+|  [SAMN16822870](https://www.ebi.ac.uk/biosamples/samples/SAMN16822870) |  Non-tumor DNA sample from blood of a human female participant in the dbGaP study A Phase I/II Trial of T Cell Receptor Gene Therapy Targeting HPV-16 E7 for HPV-Associated Cancers   |
 
 </details>
 

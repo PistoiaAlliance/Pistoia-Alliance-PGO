@@ -51,7 +51,7 @@ URI:[https://w3id.org/PGO/pharmaceutical_product](https://w3id.org/PGO/pharmaceu
 
 | Value | Description
 | --- | --- |
-| [Ventolin HFA](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020983) | | Ventolin HFA is a bronchodilator used to treat or prevent bronchospasm in individuals with asthma or chronic obstructive pulmonary disease (COPD). |
+| [Ventolin HFA](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020983) | Ventolin HFA is a bronchodilator used to treat or prevent bronchospasm in individuals with asthma or chronic obstructive pulmonary disease (COPD). |
 
 </details>
 

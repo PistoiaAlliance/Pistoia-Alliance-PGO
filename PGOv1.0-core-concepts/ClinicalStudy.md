@@ -53,7 +53,7 @@ URI: [w3id:pgo.clinical_study](https://w3id.org/pgo.clinical_study)
 
 | Value | Description
 | --- | --- |
-| [Evaluation of the Diagnostic Efficacy and Safety of [123I]NAV5001 as an Imaging Agent to Aid in the Diagnosis of Parkinsonian Syndromes](https://clinicaltrials.gov/study/NCT01950455) | | a phase 3, open-label, multiple-center, non-randomized single dose study to assess the safety and efficacy of [123I]NAV5001 SPECT imaging in aiding in the differentiation of parkinsonian syndromes from non-parkinsonian tremor |
+| [Evaluation of the Diagnostic Efficacy and Safety of [123I]NAV5001 as an Imaging Agent to Aid in the Diagnosis of Parkinsonian Syndromes](https://clinicaltrials.gov/study/NCT01950455) |  a phase 3, open-label, multiple-center, non-randomized single dose study to assess the safety and efficacy of [123I]NAV5001 SPECT imaging in aiding in the differentiation of parkinsonian syndromes from non-parkinsonian tremor |
 
 </details>
 

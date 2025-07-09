@@ -71,8 +71,8 @@ URI: [https://w3id.org/PGO/device/Device](https://w3id.org/PGO/device/Device)
 
 | Value | Description
 | --- | --- |
-| [thermal cycler](http://purl.obolibrary.org/obo/OBI_0000989) | | an instrument used for perform a polymerase chain reaction (PCR) |
-| [centrifuge](http://purl.obolibrary.org/obo/OBI_0400106) | | an instrument used to separate components of a mixture based on density |
+| [thermal cycler](http://purl.obolibrary.org/obo/OBI_0000989) | an instrument used for perform a polymerase chain reaction (PCR) |
+| [centrifuge](http://purl.obolibrary.org/obo/OBI_0400106) | an instrument used to separate components of a mixture based on density |
 
 </details>
 

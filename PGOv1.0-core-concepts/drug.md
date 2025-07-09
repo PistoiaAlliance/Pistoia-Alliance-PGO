@@ -56,10 +56,10 @@ URI: [wikidata:Q12140](https://www.wikidata.org/wiki/Q12140)
 
 | Value | Description
 | --- | --- |
-| [morphine](http://purl.obolibrary.org/obo/CHEBI_17703) | | morphine is a common drug used to treat severe pain |
-| [aspirin](http://purl.obolibrary.org/obo/CHEBI_15365) | | aspirin is a common drug used to reduce pain, fever, or inflammation |
-| [Ibuprofen](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:5855) | | an example of a protein belonging to the cadherin family |
-| [Albuterol](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2550) | | a common drug used to treat asthma and other respiratory conditions |
+| [morphine](http://purl.obolibrary.org/obo/CHEBI_17703) | morphine is a common drug used to treat severe pain |
+| [aspirin](http://purl.obolibrary.org/obo/CHEBI_15365) | aspirin is a common drug used to reduce pain, fever, or inflammation |
+| [Ibuprofen](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:5855) | an example of a protein belonging to the cadherin family |
+| [Albuterol](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2550) | a common drug used to treat asthma and other respiratory conditions |
 
 </details>
 

@@ -53,8 +53,8 @@ URI: [w3id:pgo.disease](https://w3id.org/pgo.disease)
 
 | Value | Description
 | --- | --- |
-| [Angina pectoris](https://hpo.jax.org/browse/term/HP:0001681) | | A type of chest pain caused by reduced blood flow to the heart. It is often described as a feeling of pressure |
-| [Parkinson disease](https://monarchinitiative.org/MONDO:0005180) | | A progressive neurodegenerative disorder characterized by motor symptoms such as tremors, rigidity, and bradykinesia. |
+| [Angina pectoris](https://hpo.jax.org/browse/term/HP:0001681) | A type of chest pain caused by reduced blood flow to the heart. It is often described as a feeling of pressure |
+| [Parkinson disease](https://monarchinitiative.org/MONDO:0005180) | A progressive neurodegenerative disorder characterized by motor symptoms such as tremors, rigidity, and bradykinesia. |
 
 </details>
 

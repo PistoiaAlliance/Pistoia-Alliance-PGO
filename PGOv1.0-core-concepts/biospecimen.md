@@ -54,7 +54,7 @@ URI: [w3id:pgo.biospecimen](https://w3id.org/pgo.biospecimen)
 
 | Value | Description
 | --- | --- |
-| paraffin-embedded tissue | | A tissue sample that has been preserved in paraffin wax for histological examination. |
+| paraffin-embedded tissue | A tissue sample that has been preserved in paraffin wax for histological examination. |
 
 </details>
 

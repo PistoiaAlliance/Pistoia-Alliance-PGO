@@ -32,7 +32,7 @@ URI: [w3id:pgo.clinical_study_site](https://w3id.org/pgo.clinical_study_site)
 
 | Value | Description
 | --- | --- |
-| [Basel, BS, Switzerland, 4051 UPK Transkulturelle Ambulanz](https://clinicaltrials.gov/study/NCT07015567?locStr=Basel,%20Switzerland&country=Switzerland&state=Basel%20City&city=Basel&rank=1#locations) | | Contacts and Locations. This section provides contact details for people who can answer questions about joining this study, and information on where this study is taking place. |
+| [Basel, BS, Switzerland, 4051 UPK Transkulturelle Ambulanz](https://clinicaltrials.gov/study/NCT07015567?locStr=Basel,%20Switzerland&country=Switzerland&state=Basel%20City&city=Basel&rank=1#locations) | Contacts and Locations. This section provides contact details for people who can answer questions about joining this study, and information on where this study is taking place. |
 
 </details>
 

@@ -63,9 +63,9 @@ URI: [wikidata:Q11173](https://www.wikidata.org/wiki/Q11173)
 
 | Value | Description
 | --- | --- |
-| [morphine](http://purl.obolibrary.org/obo/CHEBI_17703) | | morphine is a common drug used to treat severe pain |
-| [vinyl toluene](http://purl.obolibrary.org/obo/CHEBI_82552) | | derivative of styrene and is used as a comonomer in the production of specialized polystyrenes. It is produced by the dehydrogenation of 4-ethyltoluene |
-| [butane](http://purl.obolibrary.org/obo/CHEBI_37808) | | A straight chain alkane composed of 4 carbon atoms. |
+| [morphine](http://purl.obolibrary.org/obo/CHEBI_17703) |  morphine is a common drug used to treat severe pain |
+| [vinyl toluene](http://purl.obolibrary.org/obo/CHEBI_82552) |  derivative of styrene and is used as a comonomer in the production of specialized polystyrenes. It is produced by the dehydrogenation of 4-ethyltoluene |
+| [butane](http://purl.obolibrary.org/obo/CHEBI_37808) |  A straight chain alkane composed of 4 carbon atoms. |
 
 </details>
 

@@ -59,8 +59,8 @@ URI: [w3id:pgo.protein](https://w3id.org/pgo.protein)
 
 | Value | Description
 | --- | --- |
-| [tumor protein p53](https://www.wikidata.org/wiki/Q283350) | | an example of a protein |
-| [Cadherin-3](https://www.uniprot.org/uniprot/P22223) | | an example of a protein belonging to the cadherin family |
+| [tumor protein p53](https://www.wikidata.org/wiki/Q283350) | an example of a protein |
+| [Cadherin-3](https://www.uniprot.org/uniprot/P22223) |  an example of a protein belonging to the cadherin family |
 
 </details>
 

@@ -66,8 +66,8 @@ URI: [wikidata:Q214609](https://www.wikidata.org/wiki/Q214609)
 
 | Value | Description
 | --- | --- |
-| [water](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15377) | | H20, a chemical substance composed of two hydrogen atoms and one oxygen atom, in liquid form at room temperature |
-| [butter](https://www.wikidata.org/wiki/Q34172) | | a dairy product made from the fat and protein components of milk or cream, typically used as a spread or in cooking |
+| [water](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15377) | H20, a chemical substance composed of two hydrogen atoms and one oxygen atom, in liquid form at room temperature |
+| [butter](https://www.wikidata.org/wiki/Q34172) | a dairy product made from the fat and protein components of milk or cream, typically used as a spread or in cooking |
 
 </details>
 

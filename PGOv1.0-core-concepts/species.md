@@ -36,8 +36,8 @@ URI: [w3id:pgo.species](https://w3id.org/pgo.species)
 
 | Value | Description
 | --- | --- |
-| [Homo sapiens](https://www.uniprot.org/taxonomy/9606) | | HUMAN - Homo sapiens (species) |
-| [Mus musculus](https://www.uniprot.org/taxonomy/10090) | | MOUSE - Mus musculus (species) |
+| [Homo sapiens](https://www.uniprot.org/taxonomy/9606) | HUMAN - Homo sapiens (species) |
+| [Mus musculus](https://www.uniprot.org/taxonomy/10090) | MOUSE - Mus musculus (species) |
 
 </details>
 
