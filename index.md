@@ -42,18 +42,17 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
-
 ## Project Roadmap
-- 2023: initial scoping and identification of core concepts FAIR implementation project
+- 2023: initial scoping and identification of core concepts from the FAIR implementation project
 
-Phase 1
+*Phase 1*
 - 2024: process flow, expert identification, core concept candidate definitions
 - 2024: high level use case identificaiton and definition [4]
 - 2025: experts consultation and alignment, formalization of core concepts R&ED
 - 2025: implementation and testing using LinkML
 - 2025: first public release of the core-concepts
 
-Phase 2
+*Phase 2*
 - 2025 application and "field testing"
 - 2025 complement core-concept vocabulary
 - 2026 updated version of core-concept vocabulary
