@@ -1,0 +1,34 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#header_wrap{
+background: #268fa2;
+}
+
+#footer_wrap{
+background: #268fa2;
+}
+
+/* picture size in table */
+table tr td img{
+  max-height: 200px;
+  border-radius: 50%;
+  vertical-align: middle;
+  max-width: 150px;
+}
+
+#forkme_banner{
+  display: none;
+}
+
+.logo{
+  width: 100px;
+}
+
+.logoDiv{
+  position: fixed;
+  left: 0;
+  top: 0;
+}
