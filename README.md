@@ -35,7 +35,7 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### [Summaries of alignments meetings](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
-### [high level use case report- project webpage: see "deliverables and resources"](https://www.pistoiaalliance.org/project/pharma-general-ontology/)
+### [High level use case report- project webpage: see "deliverables and resources"](https://www.pistoiaalliance.org/project/pharma-general-ontology/)
 
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
