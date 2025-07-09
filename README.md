@@ -25,6 +25,7 @@ The initial goal of PGO is to provide enough coverage to represent essential ent
 
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
+## Project Outputs Phase 1
 
 ### [List of core entities](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/blob/development/2025_PGO_V1.0_core_concepts.md)
 
@@ -34,12 +35,15 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### [Summaries of alignments meetings](https://github.com/PistoiaAlliance/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
+### [high level use case report- project webpage: see "deliverables and resources"](https://www.pistoiaalliance.org/project/pharma-general-ontology/)
+
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
 
-### Roadmap
+## Project Roadmap
 - 2023: initial scoping and identification of core concepts FAIR implementation project
+
 Phase 1
 - 2024: process flow, expert identification, core concept candidate definitions
 - 2024: high level use case identificaiton and definition [4]
@@ -53,7 +57,8 @@ Phase 2
 - 2026 updated version of core-concept vocabulary
 
 
-### Project sponsors Phase 1
+## Project sponsors 
+Phase 1
 - Astrazeneca
 - Chiesi Group
 - Glaxo Smith Kline PLC
@@ -63,7 +68,7 @@ Phase 2
 - Hoffman la Roche AG
 
 
-### References:
+## References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
 2. [https://pubmed.ncbi.nlm.nih.gov/35066138/](https://pubmed.ncbi.nlm.nih.gov/35066138/)
 3. [https://pubmed.ncbi.nlm.nih.gov/36125173/](https://pubmed.ncbi.nlm.nih.gov/36125173/)
