@@ -4,6 +4,8 @@
 
 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please see Terms of Use for details.
 
+Project output page: (https://pistoia-alliance-inc.github.io/Pistoia-Alliance-PGO/)(https://pistoia-alliance-inc.github.io/Pistoia-Alliance-PGO/)
+
 ### Objective
 The first objective of PGO is to define a set of agreed-upon core entities, the PGO "core concepts",  and recommendations for associating controlled terminologies to service data exchange of Research & Development (R&D) information among Pharmaceutical Industry stakeholders.
 
