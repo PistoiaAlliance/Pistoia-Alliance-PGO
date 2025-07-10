@@ -13,8 +13,7 @@ License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please see T
    * [Process](#process)
    * [List of experts](#list-of-experts)
    * [Summaries of alignments meetings](#summaries-of-alignments-meetings)
-   * [High level use case report- project webpage: see "deliverables and resources"](#high-level-use-case-report-project-webpage-see-deliverables-and-resources)
-   * [Technology](#technology)
+   * [High level use case report](#high-level-use-case-report-project-webpage-see-deliverables-and-resources)
 - [Project webpage](#project-webpage)
 - [Project Roadmap](#project-roadmap)
 - [Project sponsors ](#project-sponsors)
@@ -56,7 +55,7 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### [Summaries of alignments meetings](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
-### [High level use case report- project webpage: see "deliverables and resources"](https://www.pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/)
+### [High level use case report](https://www.pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/)
 
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
