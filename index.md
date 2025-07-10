@@ -8,13 +8,13 @@ License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please see T
 
    * [Objective](#objective)
    * [Rationale](#rationale)
+- [Project webpage](#project-webpage)
 - [Project Outputs Phase 1](#project-outputs-phase-1)
    * [List of core concepts](#list-of-core-concepts)
    * [Process](#process)
    * [List of experts](#list-of-experts)
    * [Summaries of alignments meetings](#summaries-of-alignments-meetings)
    * [High level use case report](#high-level-use-case-report-project-webpage-see-deliverables-and-resources)
-- [Project webpage](#project-webpage)
 - [Project Roadmap](#project-roadmap)
 - [Project sponsors ](#project-sponsors)
 - [References:](#references)
@@ -45,6 +45,9 @@ The project team initial focus is on the research and early development (R&ED) p
 
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
+## Project webpage
+[Pharma General Ontology project](https://www.pistoiaalliance.org/project/pharma-general-ontology/)
+
 ## Project Outputs Phase 1
 
 ### [List of core concepts](./2025_PGO_V1.0_core_concepts.md)
@@ -60,8 +63,6 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
 
-## Project webpage
-See: (https://www.pistoiaalliance.org/project/pharma-general-ontology/)
 
 ## Project Roadmap
 - 2023: initial scoping and identification of core concepts from the FAIR implementation project
