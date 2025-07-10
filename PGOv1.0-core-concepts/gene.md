@@ -43,6 +43,11 @@ URI: [w3id:pgo.gene](https://w3id.org/pgo.gene)
 
 <details open>
 <summary><b>Examples</b></summary>
+
+| Value | Description |
+| --- | --- |
+| [BRCA2](https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000139618;r=13:32315086-32400268) | BRCA2 DNA repair associated |
+  
 </details>
 
 <details>
