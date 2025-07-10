@@ -14,16 +14,6 @@ URI: [w3id:pgo.biospecimen](https://w3id.org/pgo.biospecimen)
 
 
 
-
-## Inheritance
-* [NamedThing](NamedThing.md)
-    * [MaterialEntity](MaterialEntity.md)
-        * **Biospecimen**
-
-
-
-
-
 <details>
 <summary><b>Alternative Descriptions</b></summary>
 
