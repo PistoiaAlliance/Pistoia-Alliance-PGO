@@ -11,12 +11,12 @@ License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please see T
 - [Project webpage](#project-webpage)
 - [Project Outputs Phase 1](#project-outputs-phase-1)
    * [List of core concepts](#list-of-core-concepts)
-   * [Process](#process)
-   * [List of experts](#list-of-experts)
-   * [Summaries of alignments meetings](#summaries-of-alignments-meetings)
    * [High level use case report](#high-level-use-case-report-project-webpage-see-deliverables-and-resources)
+   * [Process](#process)
+   * [Summaries of alignments meetings](#summaries-of-alignments-meetings)
 - [Project Roadmap](#project-roadmap)
 - [Project sponsors ](#project-sponsors)
+- [List of experts](#list-of-experts)
 - [References:](#references)
 
 <!-- TOC end -->
@@ -52,13 +52,12 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### [List of core concepts](./2025_PGO_V1.0_core_concepts.md)
 
-### [Process](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
+### [High level use case report](https://www.pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/)
 
-### [List of experts](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
+### [Process](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
 
 ### [Summaries of alignments meetings](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
-### [High level use case report](https://www.pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/)
 
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
@@ -90,6 +89,7 @@ Phase 1
 - Pfizer
 - Hoffman la Roche AG
 
+## [List of PGO experts consulted](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
 
 ## References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
