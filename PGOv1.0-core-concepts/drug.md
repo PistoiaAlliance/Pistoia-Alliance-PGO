@@ -54,7 +54,7 @@ URI: [wikidata:Q12140](https://www.wikidata.org/wiki/Q12140)
 
 <!-- ## Examples -->
 
-| Value | Description
+| Value | Description |
 | --- | --- |
 | [morphine](http://purl.obolibrary.org/obo/CHEBI_17703) | morphine is a common drug used to treat severe pain |
 | [aspirin](http://purl.obolibrary.org/obo/CHEBI_15365) | aspirin is a common drug used to reduce pain, fever, or inflammation |
