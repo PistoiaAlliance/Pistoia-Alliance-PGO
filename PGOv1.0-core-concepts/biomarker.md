@@ -47,7 +47,7 @@ _A characteristic that can be objectively measured and serves as an indicator fo
 
 | Value | Description
 | --- | --- |
-| Deoxyuridine | | https://bioregistry.io/reference/markerdb:/MDB00000007 |
+| Deoxyuridine | https://bioregistry.io/reference/markerdb:/MDB00000007 |
 
 </details>
 
