@@ -4,8 +4,6 @@
 _"A planned process with the objective to produce information about the material entity that is the evaluant by physically examining it or its proxies. source: https://ontology.iedb.org/ontology/OBI:0000070."_
 
 
-URI: [w3id:pgo.assay](https://w3id.org/pgo.assay)
-
 
 
 
@@ -93,10 +91,5 @@ URI: [w3id:pgo.assay](https://w3id.org/pgo.assay)
 </details>
 
 
-
-
-### Schema Source
-
-* from schema: https://w3id.org/PGO/assay
 
 
