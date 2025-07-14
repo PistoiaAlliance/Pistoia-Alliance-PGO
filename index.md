@@ -46,7 +46,8 @@ The project team initial focus is on the research and early development (R&ED) p
 On the issue of defining value-sets, PGO's intent is to provide clear mechanisms to enable unambiguous declaration of the resources used as well as capture the criteria used to select semantic artifacts. We will do so by following community best practices. 
 
 ## Project webpage
-[Pharma General Ontology project](https://www.pistoiaalliance.org/project/pharma-general-ontology/)
+Additional documents from the project are accessible via the [Pharma General Ontology project webpage](https://www.pistoiaalliance.org/project/pharma-general-ontology/). A log in to access documents reserved to Pistoia Alliance member companies is required.
+
 
 ## Project Outputs Phase 1
 
@@ -61,6 +62,7 @@ On the issue of defining value-sets, PGO's intent is to provide clear mechanisms
 
 ### Technology
 The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
+
 
 
 ## Project Roadmap
