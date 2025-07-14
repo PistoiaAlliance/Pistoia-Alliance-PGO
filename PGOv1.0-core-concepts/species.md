@@ -8,9 +8,6 @@ _"An element of a taxonomy for classifying life forms." definition_source: "http
 
 
 
-URI: [w3id:pgo.species](https://w3id.org/pgo.species)
-
-
 
 
 <details>
@@ -67,19 +64,11 @@ URI: [w3id:pgo.species](https://w3id.org/pgo.species)
 * Second Meeting notes , 2024-09-11 (September 11 2024) The follow-up meeting addressed persistent ambiguities-- * The NCBITaxon vocabulary, while globally recognized, does not provide a formal definition of 'species' and inherently excludes viruses in its definition but includes them in practice. * Attempts to reference conceptual frameworks such as Kevin De Queiroz’s work on species delimitation were found insufficient due to their self-referential nature.  Systematic Biology, Volume 56, Issue 6, December 2007, Pages 879–886.  - [(https--//doi.org/10.1016%2Fj.sjbs.2017.04.013)](https--//doi.org/10.1080/10635150701701083) * A proposed definition — 'a type of taxonomic rank qualifying a living entity or virus' — lacks a citable public reference.
 * Recommendation to the PGO Steering Group.1. To reconcile conceptual inclusivity with practical needs, the expert group recommends adopting the UniProt definition Uniprot_Taxon for the PGO core concept labelled 'species',   'An element of a taxonomy for classifying life forms.' 2.  It is also advised that the inclusion of viruses be explicitly acknowledged in the PGO’s application of the concept.
 
-</details>
-
 <details>
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/species
 

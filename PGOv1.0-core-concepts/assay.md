@@ -86,7 +86,7 @@ _"A planned process with the objective to produce information about the material
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
 

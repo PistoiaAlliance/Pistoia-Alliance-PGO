@@ -9,13 +9,6 @@ _Research conducted with human subjects or on material of human origin in which 
 
 
 
-URI: [w3id:pgo.clinical_study](https://w3id.org/pgo.clinical_study)
-
-
-
-
-
-
 
 <details>
 <summary><b>Alternative Descriptions</b></summary>
@@ -90,29 +83,16 @@ URI: [w3id:pgo.clinical_study](https://w3id.org/pgo.clinical_study)
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
 
 
 
 
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/clinical_study
 
 
 
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | w3id:pgo.clinical_study |
-| native | https://w3id.org/PGO/clinical_study/ClinicalStudy |
-| exact | wikidata:Q30612, biolink:ClinicalTrial, NCIT:C15206, astrazeneca:ClinicalStudy |
-| broad | bioschemas:Study, sdo:MedicalTrial, fhir:ResearchStudy |
 
 
 

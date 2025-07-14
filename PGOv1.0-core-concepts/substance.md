@@ -9,10 +9,6 @@ _A material or chemical used in the development of pharmaceuticals https://meshb
 
 
 
-URI: [wikidata:Q214609](https://www.wikidata.org/wiki/Q214609)
-
-
-
 <details>
 <summary><b>Alternative Descriptions</b></summary>
 
@@ -111,17 +107,7 @@ The discussion addressed several  tensions--
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/substance
-
-
-
 

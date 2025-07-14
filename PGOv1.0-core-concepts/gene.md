@@ -9,8 +9,6 @@ _A functional unit of heredity which occupies a specific position on a particula
 
 
 
-URI: [w3id:pgo.gene](https://w3id.org/pgo.gene)
-
 
 
 
@@ -80,19 +78,7 @@ URI: [w3id:pgo.gene](https://w3id.org/pgo.gene)
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
-
-
-
-</details>
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/gene
-
 

@@ -9,20 +9,6 @@ _A linear polymer of amino acids joined by peptide bonds in a specific sequence.
 
 
 
-URI: [w3id:pgo.protein](https://w3id.org/pgo.protein)
-
-
-
-<details><summary><b>Slots</b></summary>
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [protein_type](protein_type.md) | 0..1 <br/> [String](String.md)&nbsp;or&nbsp;<br />[ProteinTypeEnum](ProteinTypeEnum.md)&nbsp;or&nbsp;<br />[MissingValueEnum](MissingValueEnum.md) | an annotation to describe the type of protein considered | direct |
-
-</details>
-
-
 
 
 
@@ -106,13 +92,7 @@ Organizational perspectives added additional nuances--
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
 
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/protein

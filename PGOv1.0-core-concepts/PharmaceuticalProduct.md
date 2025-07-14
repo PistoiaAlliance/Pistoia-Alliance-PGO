@@ -9,9 +9,6 @@ _Qualitative and quantitative composition of a medicinal product in the dose for
 
 
 
-URI:[https://w3id.org/PGO/pharmaceutical_product](https://w3id.org/PGO/pharmaceutical_product)
-
-
 
 
 
@@ -89,12 +86,7 @@ URI:[https://w3id.org/PGO/pharmaceutical_product](https://w3id.org/PGO/pharmaceu
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
 
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/pharmaceutical_product

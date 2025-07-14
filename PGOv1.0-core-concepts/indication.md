@@ -9,10 +9,6 @@ _A sign, signal, circumstance, or symptom which serves to indicate or point out 
 
 
 
-URI: [w3id:pgo.indication](https://w3id.org/pgo.indication)
-
-
-
 
 
 
@@ -97,16 +93,7 @@ While definitions from IDMP-O and CDISC were considered valuable, the absence of
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/indication
-
-
 

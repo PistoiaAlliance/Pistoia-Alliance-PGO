@@ -9,11 +9,6 @@ _Any material sample taken from a biological entity for testing, diagnostic, pro
 
 
 
-URI: [w3id:pgo.biospecimen](https://w3id.org/pgo.biospecimen)
-
-
-
-
 <details>
 <summary><b>Alternative Descriptions</b></summary>
 
@@ -82,14 +77,11 @@ The group emphasized that this definition effectively excludes purely physical-c
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
 
 
-
-### Schema Source
-* from schema: https://w3id.org/PGO/biospecimen
 
 
 

@@ -9,13 +9,6 @@ _"The smallest units of living structure capable of independent existence, compo
 
 
 
-URI: [CL:0000000](http://purl.obolibrary.org/obo/CL_0000000)
-
-
-
-
-
-
 
 
 <details>
@@ -85,8 +78,10 @@ URI: [CL:0000000](http://purl.obolibrary.org/obo/CL_0000000)
 </details>
 
 
-### Schema Source
+<details>
+<summary><b>TODOs</b></summary>
+## TODOs
 
+* Review preferred sources
 
-* from schema: https://w3id.org/PGO/cell
-
+</details>

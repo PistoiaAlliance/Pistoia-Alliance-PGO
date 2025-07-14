@@ -7,8 +7,6 @@ _A living person who is observed, analyzed, examined, investigated, experimented
 
 
 
-URI: [w3id:pgo.clinical_study_subject](https://w3id.org/pgo.clinical_study_subject)
-
 
 
 
@@ -95,15 +93,7 @@ Multiple ontological sources were reviewed--
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* Review
+* Review preferred sources
 
 </details>
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/clinical_study_subject
-
 

@@ -9,9 +9,6 @@ _Any substance which when absorbed into a living organism may modify one or more
 
 
 
-URI: [wikidata:Q12140](https://www.wikidata.org/wiki/Q12140)
-
-
 
 
 <details>
@@ -99,15 +96,7 @@ URI: [wikidata:Q12140](https://www.wikidata.org/wiki/Q12140)
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/drug
-
-
 

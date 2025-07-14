@@ -9,9 +9,6 @@ _a manufactured physical or digital device used in Pharma R&D and therapy develo
 
 
 
-URI: [https://w3id.org/PGO/device/Device](https://w3id.org/PGO/device/Device)
-
-
 
 <details><summary><b>Slots</b></summary>
 ## Slots
@@ -107,14 +104,8 @@ URI: [https://w3id.org/PGO/device/Device](https://w3id.org/PGO/device/Device)
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* Review
+* Review preferred sources
 
 </details>
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/device
 
 

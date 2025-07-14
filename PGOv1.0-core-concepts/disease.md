@@ -9,8 +9,6 @@ _a disease or condition for which a drug, device, or procedure is used_
 
 
 
-URI: [w3id:pgo.disease](https://w3id.org/pgo.disease)
-
 
 
 
@@ -98,16 +96,7 @@ The MeSH D004194 was generally preferred for its concise and clinically meaningf
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/disease
-
 

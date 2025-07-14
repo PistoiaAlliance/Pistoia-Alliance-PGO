@@ -9,9 +9,6 @@ _A substance formed by chemical union of two or more elements or ingredients in 
 
 
 
-URI: [wikidata:Q11173](https://www.wikidata.org/wiki/Q11173)
-
-
 
 
 <details>
@@ -106,13 +103,7 @@ URI: [wikidata:Q11173](https://www.wikidata.org/wiki/Q11173)
 <summary><b>TODOs</b></summary>
 ## TODOs
 
-* none
+* Review preferred sources
 
 </details>
 
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/PGO/compound
