@@ -3,7 +3,7 @@
 # Class: Indication 
 
 
-_A sign, signal, circumstance, or symptom which serves to indicate or point out the cause, pathology, treatment, or issue of an attack of disease; the basis for initiation of a treatment for a disease or of a diagnostic test (causal, or symptomatic, or disease-specific indication)_
+_A sign, signal, circumstance, or symptom which serves to indicate or point out the cause, pathology, treatment, or issue of an attack of disease; the basis for initiation of a treatment for a disease or of a diagnostic test (causal, or symptomatic, or disease-specific indication)_ Source: [https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41184](https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41184)"
 
 
 
