@@ -1,49 +1,50 @@
 **Original PGO term list created by the FAIR 2023 project**
+The list of Core Concept (more precisely their initial labels) created by the FAIR implementation project in 2023 consists of:
 
-Assay/BioAssay
+#Assay/BioAssay
 
-Assay Method / Assay Technology/ Lab Tests
+#Assay Method / Assay Technology/ Lab Tests
 
-Biomarker
+#Biomarker
 
-BioSpecimen
+#BioSpecimen
 
-Cell Line
+#Cell Line
 
-Cell Type
+#Cell Type
 
-Clinical study
+#Clinical study
 
-Compound
+#Compound
 
-Device/ Instrument/ Equipment
+#Device/ Instrument/ Equipment
 
-Disease
+#Disease
 
-Drug
+#Drug
 
-Gene
+#Gene
 
-Indication
+#Indication
 
-Molecular Target
+#Molecular Target
 
-Product
+#Product
 
-Program
+#Program
 
-Project
+#Project
 
-Protein
+#Protein
 
-Site
+#Site
 
-Species
+#Species
 
-Subject-Person
+#Subject-Person
 
-Substance
+#Substance
 
-Target
+#Target
 
-Unit of Measure
+#Unit of Measure
