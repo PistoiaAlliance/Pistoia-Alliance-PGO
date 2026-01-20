@@ -3,7 +3,7 @@
 List of contributing experts
 
 |Name | Organisation | Role |
-| -- | -- | -- | -- | -- |
+| -- | -- | -- | 
 Ben Gardner| AstraZeneca|  Steering group member| 
 Philippe Rocca-Serra| AstraZeneca|  Steering group member|  
 Elena Businaro| Chiesi Group|  Steering group member| 
