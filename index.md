@@ -57,7 +57,7 @@ Additional documents from the project are accessible via the [Pharma General Ont
 
 ### [Process](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
 
-### [Summaries of alignments meetings](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
+### [Summaries of alignments meetings](./Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
 
 
 ### Technology
@@ -91,7 +91,7 @@ Phase 1
 - Pfizer
 - Hoffman la Roche AG
 
-## [List of PGO experts consulted](./Pistoia-Alliance-PGO/list-of-experts.md)
+## [List of PGO experts consulted](./list-of-experts.md)
 
 ## References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
