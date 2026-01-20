@@ -79,6 +79,7 @@ The project is currently using the [LinkML](https://linkml.io) language for repr
 - 2025 application and "field testing"
 - 2025 complement core-concept vocabulary
 - 2026 updated version of core-concept vocabulary
+- 2026 Machine-readable version of PGO-terminology
 
 
 ## Project sponsors 
