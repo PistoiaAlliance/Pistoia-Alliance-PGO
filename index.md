@@ -61,7 +61,7 @@ Additional documents from the project are accessible via the [Pharma General Ont
 
 
 ### Technology
-The project is currently using the [LinkML](https://linkml.io) for representing and documenting each of the types [3].
+The project is currently using the [LinkML](https://linkml.io) language for representing and documenting each of the types [3].
 
 
 
@@ -91,7 +91,7 @@ Phase 1
 - Pfizer
 - Hoffman la Roche AG
 
-## [List of PGO experts consulted](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/list-of-experts)
+## [List of PGO experts consulted](./Pistoia-Alliance-PGO/list-of-experts.md)
 
 ## References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
