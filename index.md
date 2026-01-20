@@ -91,7 +91,7 @@ Phase 1
 - Pfizer
 - Hoffman la Roche AG
 
-## [List of PGO experts consulted](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/PGO-2024-expert-list)
+## [List of PGO experts consulted](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/list-of-experts)
 
 ## References:
 1. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
