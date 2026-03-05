@@ -1,0 +1,94 @@
+Concept Label Text,Recommended Definition text,Source Definition,Source Definition Identifier,Date approval of experts recommendations by the PGO steering committee,Attribution text,URL recommended definition,Examples of sources (these are  not yet  recommended sources)
+Assay,"A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.",Ontology for Biomedical Investigations (OBI),[0000070],2025-06-12,"Source attribution: Ontology for Biomedical Investigations (OBI)
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/- 
+ Definition accessed on the date: 2025-06-02",https://ontology.iedb.org/ontology/OBI:0000070,"http://bioassayontology.org/
+https://github.com/rsc-ontologies/rsc-cmo
+https://obi-ontology.org/
+https://www.ebi.ac.uk/efo/
+https://www.ebi.ac.uk/ols4/ontologies/pride"
+Biomarker,"A characteristic that can be objectively measured and serves as an indicator for normal biologic processes, pathogenic processes, state of health or disease, the risk for disease development and/or prognosis, or responsiveness to a particular therapeutic intervention.",NCI-Thesaurus (NCIT),[C16342],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C16342,"https://markerdb.ca
+https://bioregistry.io/registry/markerdb"
+Biospecimen,"Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.",NCI-Thesaurus (NCIT),[C70699],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C70699,"https://www.ebi.ac.uk/biosamples
+https://registry.identifiers.org/registry/biosample"
+Cell,"The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.",NCI-Thesaurus (NCIT),[C12508],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C12508,"https://cell-ontology.github.io/
+https://brenda-enzymes.org/ontology.php?ontology_id=3"
+Clinical_study,"Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical trials, epidemiologic, behavior, and health services research.",NCI-Thesaurus (NCIT),[C15206],2025-03-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C15206,"https://clinicaltrials.gov/
+https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en"
+Clinical_study_site,"A healthcare organization, an institution, a facility, a healthcare provider, or a part or a constituent of any of the above entities directly involved in conducting a particular clinical study.",NCI-Thesaurus (NCIT),[C70777],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+ Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C70777,"https://www.clinicaltrialsregister.eu
+https://trialsearch.who.int"
+Compound,A substance formed by chemical union of two or more elements or ingredients in definite proportion by weight.,NCI-Thesaurus (NCIT),[C43366],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C43366,"https://www.ebi.ac.uk/chembl/
+https://www.ebi.ac.uk/chebi/aboutChebiForward.do
+https://pubchem.ncbi.nlm.nih.gov/docs/rdf"
+Device,"An object contrived for a specific purpose. OR: An object that has a specific use. In medicine, wheelchairs, pumps, and artificial limbs are examples of devices.",NCI-Thesaurus (NCIT),[C62103],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+ Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C62103,"http://bioassayontology.org/
+https://www.ebi.ac.uk/efo/
+https://github.com/rsc-ontologies/rsc-cmo
+https://www.allotrope.org/ontologies"
+Disease,"A definite pathologic process with a characteristic set of signs and symptoms. It may affect the whole body or any of its parts, and its etiology, pathology, and prognosis may be known or unknown",National Library of Medicine (NLM) - MESH,[D004194],2025-06-12,"Source attribution: National Library of Medicine (NLM) - MESH 
+ licence: Free access with clear attribution to NLM. 
+ URL licence: https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html- 
+Definition accessed on the date: 2025-05-30",https://meshb.nlm.nih.gov/record/ui?ui=D004194,"https://mondo.monarchinitiative.org/
+https://disease-ontology.org/do/
+https://www.ebi.ac.uk/efo/
+https://hpo.jax.org/
+https://www.snomed.org/
+https://www.meddra.org/"
+Drug,"Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.",Chemical Entities of Biological Interest (ChEBI),[23888],2025-06-12,"Source attribution: Chemical Entities of Biological Interest (ChEBI) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+ Definition accessed on the date: 2025-06-09",https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:23888,"https://bioportal.bioontology.org/ontologies/DRON
+https://www.ebi.ac.uk/chebi/"
+Gene,A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.,NCI-Thesaurus (NCIT),[C16612],2025-03-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+ Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C16612,https://www.ensembl.org/
+Indication,"A sign, signal, circumstance, or symptom which serves to indicate or point out the cause, pathology, treatment, or issue of an attack of disease; the basis for initiation of a treatment for a disease or of a diagnostic test (causal, or symptomatic, or disease-specific indication)** Alternative definition: CIDISC A health problem or disease that is identified as likely to be benefited by a therapy being studied in clinical trials. NOTE: Where such a benefit has been established and approved by regulatory authorities, the therapy is said to be approved for such an indication.",NCI-Thesaurus (NCIT),[C41184],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+ Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41184,"https://www.snomed.org/
+https://obofoundry.org/ontology/mondo
+https://disease-ontology.org/
+https://hpo.jax.org/
+https://www.meddra.org/"
+Pharmaceutical_product,"Qualitative and quantitative composition of a medicinal product in the dose form authorized by the regulatory authority for administration to patients, and as represented with any corresponding regulated product information. NOTE: A medicinal product may contain one or more pharmaceutical products. In many instances, the pharmaceutical product is the manufactured item. However, there are instances where the manufactured item undergoes further preparation before being administered to the patient (as the pharmaceutical product).",NCI-Thesaurus (NCIT),[C42639],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C42639,"https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm
+https://spor.ema.europa.eu/rmswi/#/"
+Protein,A linear polymer of amino acids joined by peptide bonds in a specific sequence.,Molecular Interactions (MI),[0326],2025-03-12,Source attribution: Molecular Interactions (MI) - licence: CC BY 4.0 - URL licence: https://github.com/HUPO-PSI/psi-mi-CV/blob/master/LICENSE- Definition accessed on the date: 2025-06-09,https://www.ebi.ac.uk/ols4/ontologies/mi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMI_0326,https://www.uniprot.org
+Species,An element of a taxonomy for classifying life forms.,UniProt,[Taxon],2025-06-12,"Source attribution: UniProt 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/- 
+ Definition accessed on the date: 2025-06-09",https://purl.uniprot.org/html/index-en.html#Taxon,https://www.ncbi.nlm.nih.gov/taxonomy
+Substance,"Any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical.",NCI-Thesaurus (NCIT),[C45306],2025-06-12,"Source attribution: NCI-Thesaurus (NCIT) 
+ licence: CC BY 4.0 
+ URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+Definition accessed on the date: 2025-05-30",https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C45306,"https://gsrs.ncats.nih.gov/ginas/app/ui/home
+https://www.ebi.ac.uk/chebi/aboutChebiForward.do
+https://pubchem.ncbi.nlm.nih.gov/"
+Unit,"A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension). For example, the meter is a quantity of length that has been rigorously defined and standardized by the BIPM (International Board of Weights and Measures). Any measurement of the length can be expressed as a number multiplied by the unit meter. More formally, the value of a physical quantity Q with respect to a unit (U) is expressed as the scalar multiple of a real number (n) and U, as Q=nU.",QUDT,[unit],2025-03-12,"Source attribution: QUDT 
+ licence: CC BY 4.0 
+URL licence: https://creativecommons.org/licenses/by/4.0/deed.en- 
+ Definition accessed on the date: 2025-09-09",https://qudt.org/vocab/unit/,"https://qudt.org/schema/qudt/Unit
+https://www.qudt.org/doc/DOC_VOCAB-UNITS.html"
