@@ -14,6 +14,7 @@ License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please see T
    * [High level use case report](#high-level-use-case-report-project-webpage-see-deliverables-and-resources)
    * [Process](#process)
    * [Summaries of alignments meetings](#summaries-of-alignments-meetings)
+   * [Files](#)
 - [Project Roadmap](#project-roadmap)
 - [Project sponsors ](#project-sponsors)
 - [List of experts](#list-of-experts)
@@ -58,6 +59,10 @@ Additional documents from the project are accessible via the [Pharma General Ont
 ### [Process](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024%E2%80%90PGO-process)
 
 ### [Summaries of alignments meetings](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/wiki/2024_PGO_V1.0-_summary_meetings)
+
+### Files
+  - [PGO_V1.0 list CSV](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/blob/development/PGO_V1.0_core_concepts_2026-03-20.csv)
+  - [PGO_V1.0 list Excel](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO/blob/development/PGO_V1.0_core_concepts_2026-03-20.xlsx)
 
 
 ### Technology
