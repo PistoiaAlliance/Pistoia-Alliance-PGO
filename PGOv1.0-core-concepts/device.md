@@ -10,16 +10,6 @@ _a manufactured physical or digital device used in Pharma R&D and therapy develo
 
 
 
-<details><summary><b>Slots</b></summary>
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [manufacturer](manufacturer.md) | 1 <br/> [String](String.md)&nbsp;or&nbsp;<br />[DeviceTypeEnum](DeviceTypeEnum.md)&nbsp;or&nbsp;<br />[MissingValueEnum](MissingValueEnum.md) | the name of the manufacturer | direct |
-| [version](version.md) | 0..1 <br/> [String](String.md) | the version number of the artifact, physical or informational | direct |
-
-</details>
-
 
 
 
