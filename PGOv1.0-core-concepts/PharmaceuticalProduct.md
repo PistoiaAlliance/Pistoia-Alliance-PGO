@@ -3,13 +3,7 @@
 # Class: PharmaceuticalProduct 
 
 
-_Qualitative and quantitative composition of a medicinal product in the dose form authorized by the regulatory authority for administration to patients, and as represented with any corresponding regulated product information. NOTE: A medicinal product may contain one or more pharmaceutical products. In many instances, the pharmaceutical product is the manufactured item. However, there are instances where the manufactured item undergoes further preparation before being administered to the patient (as the pharmaceutical product)._
-
-
-
-
-
-
+_Qualitative and quantitative composition of a medicinal product in the dose form authorized by the regulatory authority for administration to patients, and as represented with any corresponding regulated product information. NOTE: A medicinal product may contain one or more pharmaceutical products. In many instances, the pharmaceutical product is the manufactured item. However, there are instances where the manufactured item undergoes further preparation before being administered to the patient (as the pharmaceutical product). https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C42639_
 
 
 
@@ -25,7 +19,6 @@ _Qualitative and quantitative composition of a medicinal product in the dose for
 
 
 
-
 </details>
 
 
@@ -35,8 +28,6 @@ _Qualitative and quantitative composition of a medicinal product in the dose for
 <!-- ## Aliases -->
 
 
-* Pharmaceutical Substance
-* Drug
 * Product
 
 </details>
@@ -89,4 +80,3 @@ _Qualitative and quantitative composition of a medicinal product in the dose for
 * Review preferred sources
 
 </details>
-

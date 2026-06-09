@@ -3,9 +3,7 @@
 # Class: Unit 
 
 
-_A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension). For example, the meter is a quantity of length that has been rigorously defined and standardized by the BIPM (International Board of Weights and Measures). Any measurement of the length can be expressed as a number multiplied by the unit meter. More formally, the value of a physical quantity Q with respect to a unit (U) is expressed as the scalar multiple of a real number (n) and U, as Q=nU._
-
-
+_A unit of measure, or unit, is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension). For example, the meter is a quantity of length that has been rigorously defined and standardized by the BIPM (International Board of Weights and Measures). Any measurement of the length can be expressed as a number multiplied by the unit meter. More formally, the value of a physical quantity Q with respect to a unit (U) is expressed as the scalar multiple of a real number (n) and U, as Q=nU. https://qudt.org/vocab/unit/_
 
 
 
@@ -22,7 +20,6 @@ _A unit of measure, or unit, is a particular quantity value that has been chosen
 
 
 * alt_description_source |   | 
-
 
 
 
@@ -78,6 +75,5 @@ _A unit of measure, or unit, is a particular quantity value that has been chosen
 * Review preferred sources
 
 </details>
-
 
 

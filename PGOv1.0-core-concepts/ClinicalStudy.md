@@ -1,11 +1,8 @@
 
-
 # Class: ClinicalStudy 
 
 
-_Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical tests, epidemiologic, behavior, and health services research. https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C15206_
-
-
+_Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical trials, epidemiologic, behavior, and health services research. https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C15206_
 
 
 
@@ -22,7 +19,6 @@ _Research conducted with human subjects or on material of human origin in which 
 
 
 * SNOMED_CT |   | 
-
 
 
 
@@ -72,9 +68,9 @@ _Research conducted with human subjects or on material of human origin in which 
 <summary><b>Comments</b></summary>
 <!-- ## Comments -->
 
-* Two expert meetings were held on 3 July and 1 August 2024 as part of the Pistoia Alliance’s Pharma General Ontology (PGO) initiative to converge on a standardized definition of the concept 'clinical study.' The discussions demonstrated a strong consensus among experts on adopting the definition provided by the NCI Thesaurus (NCIT), specifically concept code C15206 (NCIT_C15206).
+* Two expert meetings were held on 3 July and 1 August 2024 as part of the Pistoia Alliance's Pharma General Ontology (PGO) initiative to converge on a standardized definition of the concept 'clinical study.' The discussions demonstrated a strong consensus among experts on adopting the definition provided by the NCI Thesaurus (NCIT), specifically concept code C15206 (NCIT_C15206).
 * During the 3 July meeting, it was noted that this definition aligns with the terminology requirements of several pharmaceutical partners. AstraZeneca emphasized the importance of establishing a common identifier source for clinical trials to ensure unambiguous referencing across systems. GSK proposed that a preference hierarchy for resolution services (e.g., prioritizing identifiers.org) may be required. Merck KGaA expressed a preference for using the original source text of definitions, a position unanimously endorsed by the group as a guiding principle.
-* At the 1 August meeting (GitHub issue n.34), experts considered input from the Pistoia Alliance’s Clinical Operations (ClinOps) group, which utilizes a use-case-specific definition from the Unified Study Definition Model (USDM)-- 'involves research using human volunteers (also called participants) that is intended to add to medical knowledge.' PGO experts concluded that this definition is not in conflict with NCIT_C15206. The more expansive second part of the NCIT definition—covering development of new technologies and various research domains—was viewed as descriptive commentary rather than essential for semantic interoperability. The equivalence of terms such as 'human subject,' 'volunteer,' and 'participant' was acknowledged as an open point but not a critical obstacle.
+* At the 1 August meeting (GitHub issue n.34), experts considered input from the Pistoia Alliance's Clinical Operations (ClinOps) group, which utilizes a use-case-specific definition from the Unified Study Definition Model (USDM)-- 'involves research using human volunteers (also called participants) that is intended to add to medical knowledge.' PGO experts concluded that this definition is not in conflict with NCIT_C15206. The more expansive second part of the NCIT definition—covering development of new technologies and various research domains—was viewed as descriptive commentary rather than essential for semantic interoperability. The equivalence of terms such as 'human subject,' 'volunteer,' and 'participant' was acknowledged as an open point but not a critical obstacle.
 * Recommendation to the PGO Steering Group 1. The expert group recommends the adoption of NCIT_C15206 from the NCI Thesaurus as the preferred definition of clinical study within the PGO controlled vocabulary. The recommended definition is 'Research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, study of mechanisms of human diseases, therapy, clinical trials, epidemiologic, behavior, and health services research.'
 
 </details>
@@ -86,13 +82,4 @@ _Research conducted with human subjects or on material of human origin in which 
 * Review preferred sources
 
 </details>
-
-
-
-
-
-
-
-
-
 

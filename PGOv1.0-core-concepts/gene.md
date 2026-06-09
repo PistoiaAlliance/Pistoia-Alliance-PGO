@@ -1,15 +1,8 @@
 
-
 # Class: Gene 
 
 
-_A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function._
-
-
-
-
-
-
+_A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function. https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C16612_
 
 
 
@@ -26,7 +19,6 @@ _A functional unit of heredity which occupies a specific position on a particula
 
 
 * alt_description_source |   | 
-
 
 
 
@@ -81,4 +73,3 @@ _A functional unit of heredity which occupies a specific position on a particula
 * Review preferred sources
 
 </details>
-

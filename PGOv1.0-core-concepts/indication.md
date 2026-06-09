@@ -1,14 +1,8 @@
 
-
 # Class: Indication 
 
 
-_A sign, signal, circumstance, or symptom which serves to indicate or point out the cause, pathology, treatment, or issue of an attack of disease; the basis for initiation of a treatment for a disease or of a diagnostic test (causal, or symptomatic, or disease-specific indication) [https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41184](https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41184)_
-
-
-
-
-
+_A sign, signal, circumstance, or symptom which serves to indicate or point out the cause, pathology, treatment, or issue of an attack of disease; the basis for initiation of a treatment for a disease or of a diagnostic test (causal, or symptomatic, or disease-specific indication). https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41184_
 
 
 
@@ -25,7 +19,6 @@ _A sign, signal, circumstance, or symptom which serves to indicate or point out 
 
 
 * alt_description_source |   | 
-
 
 
 
@@ -96,4 +89,3 @@ While definitions from IDMP-O and CDISC were considered valuable, the absence of
 * Review preferred sources
 
 </details>
-
